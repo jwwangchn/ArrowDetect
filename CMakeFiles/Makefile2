@@ -46,14 +46,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/Documents/jwwangchn/ICRA/CppMT
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/ICRA/ArrowDetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/Documents/jwwangchn/ICRA/CppMT
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/ICRA/ArrowDetect
 
 #=============================================================================
 # Target rules for target CMakeFiles/cmt.dir
@@ -62,7 +59,7 @@ CMAKE_BINARY_DIR = /home/ling/Documents/jwwangchn/ICRA/CppMT
 CMakeFiles/cmt.dir/all:
 	$(MAKE) -f CMakeFiles/cmt.dir/build.make CMakeFiles/cmt.dir/depend
 	$(MAKE) -f CMakeFiles/cmt.dir/build.make CMakeFiles/cmt.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles  1 2 3 4 5 6 7 8 9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles  1 2 3 4 5 6 7 8 9
 	@echo "Built target cmt"
 .PHONY : CMakeFiles/cmt.dir/all
 
@@ -72,9 +69,9 @@ all: CMakeFiles/cmt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cmt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles 0
 .PHONY : CMakeFiles/cmt.dir/rule
 
 # Convenience name for target.

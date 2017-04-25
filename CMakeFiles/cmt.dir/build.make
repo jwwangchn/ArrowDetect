@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/Documents/jwwangchn/ICRA/CppMT
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/ICRA/ArrowDetect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/Documents/jwwangchn/ICRA/CppMT
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/ICRA/ArrowDetect
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cmt.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/cmt.dir/flags.make
 
 CMakeFiles/cmt.dir/common.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/common.cpp.o: common.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/common.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/common.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/common.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/common.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/common.cpp
 
 CMakeFiles/cmt.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/common.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/common.cpp > CMakeFiles/cmt.dir/common.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/common.cpp > CMakeFiles/cmt.dir/common.cpp.i
 
 CMakeFiles/cmt.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/common.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/common.cpp -o CMakeFiles/cmt.dir/common.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/common.cpp -o CMakeFiles/cmt.dir/common.cpp.s
 
 CMakeFiles/cmt.dir/common.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/common.cpp.o.requires
@@ -77,17 +74,17 @@ CMakeFiles/cmt.dir/common.cpp.o.provides.build: CMakeFiles/cmt.dir/common.cpp.o
 
 CMakeFiles/cmt.dir/gui.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/gui.cpp.o: gui.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/gui.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/gui.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/gui.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/gui.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/gui.cpp
 
 CMakeFiles/cmt.dir/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/gui.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/gui.cpp > CMakeFiles/cmt.dir/gui.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/gui.cpp > CMakeFiles/cmt.dir/gui.cpp.i
 
 CMakeFiles/cmt.dir/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/gui.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/gui.cpp -o CMakeFiles/cmt.dir/gui.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/gui.cpp -o CMakeFiles/cmt.dir/gui.cpp.s
 
 CMakeFiles/cmt.dir/gui.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/gui.cpp.o.requires
@@ -100,17 +97,17 @@ CMakeFiles/cmt.dir/gui.cpp.o.provides.build: CMakeFiles/cmt.dir/gui.cpp.o
 
 CMakeFiles/cmt.dir/main.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/main.cpp.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/main.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/main.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/main.cpp
 
 CMakeFiles/cmt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/main.cpp > CMakeFiles/cmt.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/main.cpp > CMakeFiles/cmt.dir/main.cpp.i
 
 CMakeFiles/cmt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/main.cpp -o CMakeFiles/cmt.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/main.cpp -o CMakeFiles/cmt.dir/main.cpp.s
 
 CMakeFiles/cmt.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/main.cpp.o.requires
@@ -123,17 +120,17 @@ CMakeFiles/cmt.dir/main.cpp.o.provides.build: CMakeFiles/cmt.dir/main.cpp.o
 
 CMakeFiles/cmt.dir/CMT.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/CMT.cpp.o: CMT.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/CMT.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/CMT.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/CMT.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/CMT.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/CMT.cpp
 
 CMakeFiles/cmt.dir/CMT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/CMT.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/CMT.cpp > CMakeFiles/cmt.dir/CMT.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/CMT.cpp > CMakeFiles/cmt.dir/CMT.cpp.i
 
 CMakeFiles/cmt.dir/CMT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/CMT.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/CMT.cpp -o CMakeFiles/cmt.dir/CMT.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/CMT.cpp -o CMakeFiles/cmt.dir/CMT.cpp.s
 
 CMakeFiles/cmt.dir/CMT.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/CMT.cpp.o.requires
@@ -146,17 +143,17 @@ CMakeFiles/cmt.dir/CMT.cpp.o.provides.build: CMakeFiles/cmt.dir/CMT.cpp.o
 
 CMakeFiles/cmt.dir/Consensus.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/Consensus.cpp.o: Consensus.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/Consensus.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Consensus.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/Consensus.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Consensus.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/Consensus.cpp
 
 CMakeFiles/cmt.dir/Consensus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/Consensus.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/Consensus.cpp > CMakeFiles/cmt.dir/Consensus.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/Consensus.cpp > CMakeFiles/cmt.dir/Consensus.cpp.i
 
 CMakeFiles/cmt.dir/Consensus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/Consensus.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/Consensus.cpp -o CMakeFiles/cmt.dir/Consensus.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/Consensus.cpp -o CMakeFiles/cmt.dir/Consensus.cpp.s
 
 CMakeFiles/cmt.dir/Consensus.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/Consensus.cpp.o.requires
@@ -169,17 +166,17 @@ CMakeFiles/cmt.dir/Consensus.cpp.o.provides.build: CMakeFiles/cmt.dir/Consensus.
 
 CMakeFiles/cmt.dir/Fusion.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/Fusion.cpp.o: Fusion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/Fusion.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Fusion.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/Fusion.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Fusion.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/Fusion.cpp
 
 CMakeFiles/cmt.dir/Fusion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/Fusion.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/Fusion.cpp > CMakeFiles/cmt.dir/Fusion.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/Fusion.cpp > CMakeFiles/cmt.dir/Fusion.cpp.i
 
 CMakeFiles/cmt.dir/Fusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/Fusion.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/Fusion.cpp -o CMakeFiles/cmt.dir/Fusion.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/Fusion.cpp -o CMakeFiles/cmt.dir/Fusion.cpp.s
 
 CMakeFiles/cmt.dir/Fusion.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/Fusion.cpp.o.requires
@@ -192,17 +189,17 @@ CMakeFiles/cmt.dir/Fusion.cpp.o.provides.build: CMakeFiles/cmt.dir/Fusion.cpp.o
 
 CMakeFiles/cmt.dir/Matcher.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/Matcher.cpp.o: Matcher.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/Matcher.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Matcher.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/Matcher.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Matcher.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/Matcher.cpp
 
 CMakeFiles/cmt.dir/Matcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/Matcher.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/Matcher.cpp > CMakeFiles/cmt.dir/Matcher.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/Matcher.cpp > CMakeFiles/cmt.dir/Matcher.cpp.i
 
 CMakeFiles/cmt.dir/Matcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/Matcher.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/Matcher.cpp -o CMakeFiles/cmt.dir/Matcher.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/Matcher.cpp -o CMakeFiles/cmt.dir/Matcher.cpp.s
 
 CMakeFiles/cmt.dir/Matcher.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/Matcher.cpp.o.requires
@@ -215,17 +212,17 @@ CMakeFiles/cmt.dir/Matcher.cpp.o.provides.build: CMakeFiles/cmt.dir/Matcher.cpp.
 
 CMakeFiles/cmt.dir/Tracker.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/Tracker.cpp.o: Tracker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/Tracker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Tracker.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/Tracker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/Tracker.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/Tracker.cpp
 
 CMakeFiles/cmt.dir/Tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/Tracker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/Tracker.cpp > CMakeFiles/cmt.dir/Tracker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/Tracker.cpp > CMakeFiles/cmt.dir/Tracker.cpp.i
 
 CMakeFiles/cmt.dir/Tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/Tracker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/Tracker.cpp -o CMakeFiles/cmt.dir/Tracker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/Tracker.cpp -o CMakeFiles/cmt.dir/Tracker.cpp.s
 
 CMakeFiles/cmt.dir/Tracker.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/Tracker.cpp.o.requires
@@ -238,17 +235,17 @@ CMakeFiles/cmt.dir/Tracker.cpp.o.provides.build: CMakeFiles/cmt.dir/Tracker.cpp.
 
 CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o: CMakeFiles/cmt.dir/flags.make
 CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o: fastcluster/fastcluster.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o -c /home/ling/Documents/jwwangchn/ICRA/CppMT/fastcluster/fastcluster.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o -c /home/ubuntu/Documents/ICRA/ArrowDetect/fastcluster/fastcluster.cpp
 
 CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ling/Documents/jwwangchn/ICRA/CppMT/fastcluster/fastcluster.cpp > CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ICRA/ArrowDetect/fastcluster/fastcluster.cpp > CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.i
 
 CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ling/Documents/jwwangchn/ICRA/CppMT/fastcluster/fastcluster.cpp -o CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ICRA/ArrowDetect/fastcluster/fastcluster.cpp -o CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.s
 
 CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o.requires:
 .PHONY : CMakeFiles/cmt.dir/fastcluster/fastcluster.cpp.o.requires
@@ -303,12 +300,6 @@ cmt: /usr/local/lib/libopencv_features2d.so.2.4.13
 cmt: /usr/local/lib/libopencv_core.so.2.4.13
 cmt: /usr/local/lib/libopencv_contrib.so.2.4.13
 cmt: /usr/local/lib/libopencv_calib3d.so.2.4.13
-cmt: /usr/lib/x86_64-linux-gnu/libGLU.so
-cmt: /usr/lib/x86_64-linux-gnu/libGL.so
-cmt: /usr/lib/x86_64-linux-gnu/libSM.so
-cmt: /usr/lib/x86_64-linux-gnu/libICE.so
-cmt: /usr/lib/x86_64-linux-gnu/libX11.so
-cmt: /usr/lib/x86_64-linux-gnu/libXext.so
 cmt: /usr/local/lib/libopencv_nonfree.so.2.4.13
 cmt: /usr/local/lib/libopencv_ocl.so.2.4.13
 cmt: /usr/local/lib/libopencv_gpu.so.2.4.13
@@ -347,6 +338,6 @@ CMakeFiles/cmt.dir/clean:
 .PHONY : CMakeFiles/cmt.dir/clean
 
 CMakeFiles/cmt.dir/depend:
-	cd /home/ling/Documents/jwwangchn/ICRA/CppMT && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/Documents/jwwangchn/ICRA/CppMT /home/ling/Documents/jwwangchn/ICRA/CppMT /home/ling/Documents/jwwangchn/ICRA/CppMT /home/ling/Documents/jwwangchn/ICRA/CppMT /home/ling/Documents/jwwangchn/ICRA/CppMT/CMakeFiles/cmt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/ICRA/ArrowDetect && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/ICRA/ArrowDetect /home/ubuntu/Documents/ICRA/ArrowDetect /home/ubuntu/Documents/ICRA/ArrowDetect /home/ubuntu/Documents/ICRA/ArrowDetect /home/ubuntu/Documents/ICRA/ArrowDetect/CMakeFiles/cmt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cmt.dir/depend
 

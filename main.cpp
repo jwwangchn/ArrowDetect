@@ -316,7 +316,7 @@ int main(int argc, char **argv)
     //Create window
     namedWindow(WIN_NAME);
 
-    VideoCapture cap;
+    VideoCapture capdd;
     // cap.set(CV_CAP_PROP_FRAME_WIDTH,800);
     // cap.set(CV_CAP_PROP_FRAME_HEIGHT,600);
     bool show_preview = true;

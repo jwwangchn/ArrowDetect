@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/CMT.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/CMT.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 Consensus.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Consensus.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Consensus.h
 Fusion.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Fusion.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Fusion.h
 Matcher.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Matcher.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Matcher.h
 Tracker.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Tracker.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Tracker.h
 opencv2/features2d/features2d.hpp
 -
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Consensus.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Consensus.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Fusion.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Fusion.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Matcher.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Matcher.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 opencv2/features2d/features2d.hpp
-/home/ling/Documents/jwwangchn/ICRA/CppMT/opencv2/features2d/features2d.hpp
+/home/ubuntu/Documents/ICRA/ArrowDetect/opencv2/features2d/features2d.hpp
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/Tracker.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/Tracker.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 limits
 -
 string
@@ -48,19 +48,19 @@ vector
 opencv2/core/core.hpp
 -
 logging/log.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/logging/log.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/logging/log.h
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/getopt/getopt.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/getopt/getopt.h
 string.h
 -
 wchar.h
 -
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/gui.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/gui.h
 common.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/common.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/common.h
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/logging/log.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/logging/log.h
 sstream
 -
 string
@@ -72,11 +72,11 @@ windows.h
 sys/time.h
 -
 
-/home/ling/Documents/jwwangchn/ICRA/CppMT/main.cpp
+/home/ubuntu/Documents/ICRA/ArrowDetect/main.cpp
 CMT.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/CMT.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/CMT.h
 gui.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/gui.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/gui.h
 opencv2/highgui/highgui.hpp
 -
 opencv2/imgproc/imgproc.hpp
@@ -92,7 +92,7 @@ cstdio
 getopt.h
 -
 getopt/getopt.h
-/home/ling/Documents/jwwangchn/ICRA/CppMT/getopt/getopt.h
+/home/ubuntu/Documents/ICRA/ArrowDetect/getopt/getopt.h
 
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core/types_c.h
